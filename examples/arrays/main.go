@@ -23,7 +23,7 @@ func main() {
 	fmt.Println("Length of y:", len(y))
 
 	// Array literal with ...
-	z := [...]int{10, 20, 30, 40, 50}
+	z := [...]int{10, 20, 30, 40, 50} //no need to count the number of elements and enter the length, use ...
 	fmt.Println("Value of z:", z)
 	fmt.Println("Length of z:", len(z))
 
@@ -36,11 +36,11 @@ func main() {
 
 	// Iterate over the elements of array
 	fmt.Println("Value of langs:", langs)
-	fmt.Println("\nIterate over arrays\n")
+	fmt.Println("Iterate over arrays")
 	for i := 0; i < len(langs); i++ {
 		fmt.Printf("langs[%d]:%s \n", i, langs[i])
 	}
-	fmt.Println("\n")
+	fmt.Println("")
 
 	// Iterate over the elements of array using range
 	for k, v := range langs {
