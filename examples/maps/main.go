@@ -15,6 +15,7 @@ func main() {
 	chapts[1] = "Beginning Go"
 	chapts[2] = "Go Fundamentals"
 	chapts[3] = "Structs and Interfaces"
+	chapts[4] = "Advanced Concepts"
 
 	// Iterate over the elements of map using range
 	for k, v := range chapts {
